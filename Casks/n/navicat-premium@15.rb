@@ -63,4 +63,8 @@ cask "navicat-premium@15" do
     "~/Library/Preferences/com.prect.NavicatPremium#{version.major}.plist",
     "~/Library/Saved Application State/com.prect.NavicatPremium#{version.major}.savedState",
   ]
+
+  caveats do
+    requires_rosetta
+  end
 end
